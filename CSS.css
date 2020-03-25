@@ -1,0 +1,9 @@
+#identity, #identity legend {
+    background-color: rgb(7, 76, 165);
+}
+#Delivery, #Delivery legend {
+    background-color: rgba(166, 19, 224, 0.76);
+}
+#Payment, #Payment legend {
+    background-color: crimson;
+}

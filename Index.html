@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Exercice07</title>
+        <link rel="stylesheet" href="CSS.css" type="text/css" />
+    </head>
+    <body>
+        <fieldset id="identity">
+            <legend>Votre idendité</legend>
+        <ol>
+            <li><label for="Lastname"> Nom :</label><input type="text" placeholder="Nom" id="Nom" /></li>
+            <li><label for="firstname"> Prénom :</label><input type="text" placeholder="Prénom" id="Prénom" /></li>
+            <li><label for="Email"> Address Mail:</label><input type="text" placeholder="Address Mail" id="Address Mail" /></li>
+        </ol>
+        </fieldset>
+        <fieldset id="Delivery">
+            <legend>Adresse de livraison</legend>
+        <ol>
+            <li><label for="Address"> Addresse:</label><textarea type="text" name="Adresse" id="Addresse" rows="5" cols="20"></textarea></li>
+            <li><label for="Postalcode"> Code postal :</label><input type="text" placeholder="Code Postal" id="Code Postal"/></li>
+            <li><label for="City"> Ville :</label><input type="text" placeholder="Ville" /></li>
+        </ol>
+        </fieldset>
+        <fieldset id="Payment">
+            <legend>Informaions de réglement</legend>
+        <ol>
+            <li> Type de carte bancaire :
+                <ul>
+                    <input type="radio" name="VISA" id="VISA" /><label for="VISA"> VISA</label>
+                </ul>
+                <ul>
+                    <input type="radio" name="Mastercard" id="Mastercard" /><label for="Mastercard"> Mastercard </label>
+                </ul> 
+            <li><label for="cardnumber">Numéro de carte</label> : <input type="text" name="cardnumber" id="cardnumber" placeholder="Numéro de carte" /></li>
+            <li><label for="securitycode">Code de sécurité</label> : <input type="text" name="securitycode" id="securitycode" placeholder="Code de sécurité" /></li>
+            <li><label for="cardholdername">Nom du titulaire</label> : <input type="text" name="cardholdername" id="cardholdername" placeholder="Nom du titulaire" /></li>
+        </ol>
+        </fieldset>
+        <input type="submit" name="buy" value="j'achète!" />
+    </body>
+</html>
